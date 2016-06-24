@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>spring</artifactId>
+		<groupId>com.spring.demo</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>spring-core</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.ow2.asm</groupId>
+			<artifactId>asm</artifactId>
+			<version>5.0.4</version>
+		</dependency>
+		<!--
+			<dependency> <groupId>cglib</groupId>
+			<artifactId>cglib-nodep</artifactId> <version>3.2.0</version>
+			</dependency>
+		-->
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.7.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.servicemix.bundles</groupId>
+			<artifactId>org.apache.servicemix.bundles.jopt-simple</artifactId>
+			<version>4.3_1</version>
+		</dependency>
+	</dependencies>
+</project>

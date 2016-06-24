@@ -1,0 +1,39 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=spring-context/src\/main\/java<org.springframework.context.support{AbstractApplicationContext.java[AbstractApplicationContext"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=spring-context/src\/main\/java<org.springframework.context.support{AbstractApplicationContext.java[AbstractApplicationContext[BeanPostProcessorChecker"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="200"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=spring-context/src\/main\/java<org.springframework.context.support{AbstractApplicationContext.java[AbstractApplicationContext[ApplicationListenerDetector"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="400"/>
+      <y="0"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=spring-context/src\/main\/java<org.springframework.context.support{AbstractApplicationContext.java[AbstractApplicationContext"/>
+      <targetType="=spring-context/src\/main\/java<org.springframework.context.support{AbstractApplicationContext.java[AbstractApplicationContext[ApplicationListenerDetector"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=spring-context/src\/main\/java<org.springframework.context.support{AbstractApplicationContext.java[AbstractApplicationContext"/>
+      <targetType="=spring-context/src\/main\/java<org.springframework.context.support{AbstractApplicationContext.java[AbstractApplicationContext[BeanPostProcessorChecker"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+
